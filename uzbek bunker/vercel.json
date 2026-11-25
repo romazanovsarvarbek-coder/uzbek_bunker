@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/api/webhook",
+      "destination": "/api/webhook.py"
+    }
+  ]
+}
+
